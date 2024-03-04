@@ -5,9 +5,9 @@ VisualStudioVersion = 17.9.34607.119
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LOTO_SA_Library", "LOTO_SA_Library\LOTO_SA_Library.csproj", "{1F735B8B-83AC-4343-AA80-18D68794C32B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LottoSAConsoleApp", "LottoSAConsoleApp\LottoSAConsoleApp.csproj", "{16D2F446-14D0-4206-B710-899171825BF9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LottoSAConsoleApp", "LottoSAConsoleApp\LottoSAConsoleApp.csproj", "{16D2F446-14D0-4206-B710-899171825BF9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LottoSAWinFormsApp", "LottoSAWinFormsApp\LottoSAWinFormsApp.csproj", "{4F8E36A7-847D-46AB-B1BA-88F01C7A4197}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LottoSAWinFormsApp", "LottoSAWinFormsApp\LottoSAWinFormsApp.csproj", "{4F8E36A7-847D-46AB-B1BA-88F01C7A4197}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

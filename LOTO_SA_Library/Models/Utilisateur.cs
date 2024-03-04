@@ -1,14 +1,14 @@
 ﻿using LOTO_SA_Library.Models.Enums;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace LOTO_SA_Library.Models
 {
     public class Utilisateur
     {
+
+        public Utilisateur() {
+            MiseJoueurs = new List<MiseJoueur>();
+        }
+
         public int Id { get; set; }
         public string Nom { get; set; }
         public string Prenom { get; set; }
@@ -21,6 +21,6 @@ namespace LOTO_SA_Library.Models
         public Profil Profil { get; set; }
         public StatutUtilisateur StatutUtilisateur { get; set; }
         public Profession Profession { get; set; }
-        public ICollection<MiseJoueur> MiseJoueurs { get; set; }
+        public IList<MiseJoueur> MiseJoueurs { get; set; }
     }
 }
